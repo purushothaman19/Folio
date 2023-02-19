@@ -102,17 +102,3 @@ app.get('*', (req, res) => {
 app.listen(port, function () {
   console.log(`Started building at ${port}`);
 });
-
-
-
-// Git : -------
-
-// const gh = new GitHub({
-//   username: 'purushothaman19',
-//   password: 'g7auDRBCFTwK6cU'
-// });
-
-// var me = gh.getUser('purushothaman19');
-// me.listRepos().then(function({data: reposJson}) {
-//   console.log(reposJson[1]);
-// });
